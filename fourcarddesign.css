@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.origin{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    background-color: #f4f4f4;
+
+}
+.upper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+.lower{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px 60px 20px 60px;
+    gap: 15px;
+    background-color: #f4f4f4;
+    width: 100%;
+}
+.reliable{
+    font-size: 32px;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    font-family: "Poppins", sans-serif;
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 20px;
+    font-family: "Poppins", sans-serif;
+}
+.div3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    font-family: "Poppins", sans-serif;
+
+}
+.first{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    box-shadow: 1px 1px 1px 1px hsl(234, 12%, 34%);
+    border-radius: 10px;
+    border-top: 5px solid hsl(0, 78%, 62%);
+
+}
+.teambuilder-image{
+    display: flex;
+    justify-content: flex-end;
+}
+.second{
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    box-shadow: 1px 1px 1px 1px hsl(234, 12%, 34%);
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+.karma-image{
+    display: flex;
+    justify-content: flex-end;
+}
+.supervisor{
+    background-color: white;
+    width: 95%; 
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px hsl(234, 12%, 34%);
+    border-radius: 10px;
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+.supervisor-image{
+    display: flex;
+    justify-content: flex-end;
+}
+.calculator{
+    background-color: white;
+    width: 95%; 
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px hsl(234, 12%, 34%);
+    border-radius: 10px;
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+.calculator-image{
+    display: flex;
+    justify-content: flex-end;
+}
+@media(max-width:600px){
+    .lower{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        gap: 15px;
+        background-color: #f4f4f4;
+        width: 100%;
+    }
+    .upper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 5px;
+        width: 100%;
+        font-family: "Poppins", sans-serif;
+    }
+    .calculator{
+        width: 100%;
+    }
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Four card feature section</title>
+  <!-- <link rel="stylesheet" href="/fourcarddesign.css"> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Playwrite+HU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="origin flex justify-center items-center md:h-[100vh] bg-white">
+    <div class="parent flex flex-col bg-[#f4f4f4] px-4 gap-4 py-7 lg:w-[80%] md:w-[100%] md:items-center md:h-[100%]">
+        <div class="upper flex flex-col text-center gap-2 md:flex-1">
+          <p class="reliable text-2xl lg:text-3xl">Reliable, efficient delivery</p>
+          <h1 class=" font-bold text-2xl lg:text-3xl">Powered by Technology</h1>
+          <p class="text-sm md:w-[500px] lg:w-[600px] lg:text-lg">  Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</p>
+        </div>
+        <div class="lower flex flex-col md:flex-row md:px-9 gap-5 lg:gap-7 md:flex-4 lg:gap-10 md:gap-3">
+          <!-- first div -->
+            <div class="div1 flex flex-col md:flex-1 md:justify-center md:items-center">
+                <div class="supervisor flex flex-col gap-5 bg-white h-[100%] w-[100%] px-4 py-3 rounded-lg shadow-xl/20 border border-l-[0] border-r-[0] border-b-[0] border-t-4 border-t-[hsl(180,62%,55%)] lg:h-[50%] md:h-[50%]">
+                  <div class="flex flex-col gap-1">
+                    <h3 class="font-bold text-xl lg:text-2xl">Supervisor</h3>
+                    <p class="text-sm lg:text-lg">Monitors activity to identify project roadblocks</p>
+                  </div>
+                  <div class="supervisor-image flex justify-end"><img class="w-[50px] md:w-[40px] lg:w-[60px]" src="/images/icon-supervisor.svg" alt="icon"></div>
+                </div>
+            </div>
+            <!-- second div -->
+            <div class="div2 flex flex-col gap-3 lg:gap-5 md:gap-1 md:flex-1">
+              <!-- second div first child -->
+                <div class="first flex flex-col md:flex-1 bg-white h-[100%] w-[100%] px-4 py-3 rounded-lg shadow-xl/20 border border-l-[0] border-r-[0] border-b-[0] border-t-4 border-t-[hsl(0,78%,62%)] gap-5 lg:gap-7 md:gap-1">
+                  <div>
+                    <h3 class="font-bold text-xl lg:text-2xl">Team Builder</h3>
+                    <p class="text-sm lg:text-lg">Scans our talent network to create the optimal team for your project</p>
+                  </div>
+                  <div class="teambuilder-image flex justify-end"><img  class="w-[50px] md:w-[40px] lg:w-[60px]" src="/images/icon-team-builder.svg" alt="icon"></div>
+                </div>
+                <!-- second div second child -->
+                <div class="second flex flex-col md:flex-1 bg-white h-[100%] w-[100%] px-4 py-1 rounded-lg shadow-xl/20 border border-l-[0] border-r-[0] border-b-[0] border-t-4 border-t-[hsl(34,97%,64%)] gap-5 lg:gap-7 md:gap-1">
+                  <div>
+                    <h3 class="font-bold text-xl lg:text-2xl">Karma</h3>
+                    <p class="text-sm lg:text-lg">Regularly evaluates our talent to ensure quality</p>
+                  </div>
+                  <div class="karma-image flex justify-end"><img  class="w-[50px] md:w-[40px] lg:w-[60px]" src="/images/icon-karma.svg" alt="icon"></div>
+                </div>
+            </div>
+            <!-- third div -->
+            <div class="div3 md:flex-1 flex flex-col md:justify-center md:items-center">
+                <div class="calculator flex flex-col gap-5 bg-white h-[100%] w-[100%] px-4 py-3 rounded-lg shadow-xl/20 border border-l-[0] border-r-[0] border-b-[0] border-t-4 border-t-[hsl(212,86%,64%)] lg:h-[50%] md:h-[50%] container lg:gap-8 md:gap-2">
+                  <div class="flex flex-col gap-1">
+                    <h3 class="font-bold text-xl lg:text-2xl">Calculator</h3>
+                    <p class="text-sm lg:text-lg">Uses data from past projects to provide better delivery estimates</p>
+                  </div>
+                  <div class="calculator-image flex justify-end"><img class="w-[50px] md:w-[40px] lg:w-[60px]" src="/images/icon-calculator.svg" alt="icon"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  
+  
+
+  
+  <footer>
+    <p class="attribution hidden">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Aniekan Joseph</a>.
+    </p>
+  </footer>
+</body>
+</html>
