@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Frontend Mentor - Four card feature section
 
 ![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)
@@ -89,3 +90,7 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+=======
+# Four-Card-Feature-Master
+This is a clone of the Four Card Feature Master from Frontend Mentor
+>>>>>>> 11075d6d9bbe43246a2c81c1615c2cf16c4a653e
